@@ -1,0 +1,47 @@
+SF:C:\Users\Martin\OneDrive - Universidad Católica del Uruguay\Escritorio\Programación\Ejercicios\GIT\PII_Defensa\p1\src\Library\Material.cs
+FN:4,System.String Ucu.Poo.Defense.Material::get_Name()
+FNDA:2,System.String Ucu.Poo.Defense.Material::get_Name()
+DA:5,2
+FN:6,Ucu.Poo.Defense.MaterialType Ucu.Poo.Defense.Material::get_Type()
+FNDA:4,Ucu.Poo.Defense.MaterialType Ucu.Poo.Defense.Material::get_Type()
+DA:7,4
+FN:11,System.Boolean Ucu.Poo.Defense.Material::get_IsDangerous()
+FNDA:2,System.Boolean Ucu.Poo.Defense.Material::get_IsDangerous()
+DA:12,2
+DA:13,2
+DA:14,2
+FN:16,System.Void Ucu.Poo.Defense.Material::.ctor(System.String,Ucu.Poo.Defense.MaterialType)
+FNDA:2,System.Void Ucu.Poo.Defense.Material::.ctor(System.String,Ucu.Poo.Defense.MaterialType)
+DA:17,2
+DA:18,2
+DA:19,2
+DA:20,2
+DA:21,2
+LF:10
+LH:10
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:C:\Users\Martin\OneDrive - Universidad Católica del Uruguay\Escritorio\Programación\Ejercicios\GIT\PII_Defensa\p1\src\Library\MaterialType.cs
+FN:4,System.String Ucu.Poo.Defense.MaterialType::get_Name()
+FNDA:6,System.String Ucu.Poo.Defense.MaterialType::get_Name()
+DA:5,6
+FN:6,System.Boolean Ucu.Poo.Defense.MaterialType::get_IsDangerous()
+FNDA:10,System.Boolean Ucu.Poo.Defense.MaterialType::get_IsDangerous()
+DA:7,10
+FN:8,System.Void Ucu.Poo.Defense.MaterialType::.ctor(System.String,System.Boolean)
+FNDA:6,System.Void Ucu.Poo.Defense.MaterialType::.ctor(System.String,System.Boolean)
+DA:9,6
+DA:10,6
+DA:11,6
+DA:12,6
+DA:13,6
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
