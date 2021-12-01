@@ -1,0 +1,108 @@
+SF:C:\Users\Martin\OneDrive - Universidad Católica del Uruguay\Escritorio\Programación\Ejercicios\GIT\PII_Defensa\p2\src\Library\Material.cs
+FN:4,System.String Ucu.Poo.Defense.Material::get_Name()
+FNDA:10,System.String Ucu.Poo.Defense.Material::get_Name()
+DA:5,10
+FN:6,Ucu.Poo.Defense.MaterialType Ucu.Poo.Defense.Material::get_Type()
+FNDA:6,Ucu.Poo.Defense.MaterialType Ucu.Poo.Defense.Material::get_Type()
+DA:7,6
+FN:8,System.Void Ucu.Poo.Defense.Material::.ctor(System.String,Ucu.Poo.Defense.MaterialType)
+FNDA:6,System.Void Ucu.Poo.Defense.Material::.ctor(System.String,Ucu.Poo.Defense.MaterialType)
+DA:9,6
+DA:10,6
+DA:11,6
+DA:12,6
+DA:13,6
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Users\Martin\OneDrive - Universidad Católica del Uruguay\Escritorio\Programación\Ejercicios\GIT\PII_Defensa\p2\src\Library\MaterialType.cs
+FN:4,System.String Ucu.Poo.Defense.MaterialType::get_Name()
+FNDA:3,System.String Ucu.Poo.Defense.MaterialType::get_Name()
+DA:5,3
+FN:6,System.Void Ucu.Poo.Defense.MaterialType::.ctor(System.String)
+FNDA:3,System.Void Ucu.Poo.Defense.MaterialType::.ctor(System.String)
+DA:7,3
+DA:8,3
+DA:9,3
+DA:10,3
+LF:5
+LH:5
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:C:\Users\Martin\OneDrive - Universidad Católica del Uruguay\Escritorio\Programación\Ejercicios\GIT\PII_Defensa\p2\src\Library\Publication.cs
+FN:9,System.DateTime Ucu.Poo.Defense.Publication::get_EndDate()
+FNDA:4,System.DateTime Ucu.Poo.Defense.Publication::get_EndDate()
+DA:10,4
+FN:14,System.Collections.Generic.IReadOnlyCollection`1<Ucu.Poo.Defense.PublicationItem> Ucu.Poo.Defense.Publication::get_Items()
+FNDA:3,System.Collections.Generic.IReadOnlyCollection`1<Ucu.Poo.Defense.PublicationItem> Ucu.Poo.Defense.Publication::get_Items()
+DA:15,3
+DA:16,3
+DA:17,3
+FN:27,System.Void Ucu.Poo.Defense.Publication::AddItem(Ucu.Poo.Defense.PublicationItem)
+FNDA:4,System.Void Ucu.Poo.Defense.Publication::AddItem(Ucu.Poo.Defense.PublicationItem)
+DA:28,4
+DA:29,4
+DA:30,4
+FN:32,System.Void Ucu.Poo.Defense.Publication::RemoveItem(Ucu.Poo.Defense.PublicationItem)
+FNDA:1,System.Void Ucu.Poo.Defense.Publication::RemoveItem(Ucu.Poo.Defense.PublicationItem)
+DA:33,1
+DA:34,1
+DA:35,1
+FN:37,System.String Ucu.Poo.Defense.Publication::AsText()
+FNDA:1,System.String Ucu.Poo.Defense.Publication::AsText()
+DA:38,1
+DA:39,1
+DA:40,7
+DA:41,2
+DA:42,2
+DA:43,2
+DA:44,1
+DA:45,1
+BRDA:40,108,1,2
+BRDA:40,108,0,1
+FN:19,System.Void Ucu.Poo.Defense.Publication::.ctor(System.DateTime)
+FNDA:3,System.Void Ucu.Poo.Defense.Publication::.ctor(System.DateTime)
+DA:20,3
+DA:22,3
+DA:23,3
+DA:24,3
+DA:25,3
+LF:23
+LH:23
+BRF:2
+BRH:2
+FNF:6
+FNH:6
+end_of_record
+SF:C:\Users\Martin\OneDrive - Universidad Católica del Uruguay\Escritorio\Programación\Ejercicios\GIT\PII_Defensa\p2\src\Library\PublicationItem.cs
+FN:4,Ucu.Poo.Defense.Material Ucu.Poo.Defense.PublicationItem::get_Material()
+FNDA:8,Ucu.Poo.Defense.Material Ucu.Poo.Defense.PublicationItem::get_Material()
+DA:5,8
+FN:6,System.Int32 Ucu.Poo.Defense.PublicationItem::get_Quantity()
+FNDA:8,System.Int32 Ucu.Poo.Defense.PublicationItem::get_Quantity()
+DA:7,8
+FN:8,System.Int32 Ucu.Poo.Defense.PublicationItem::get_Price()
+FNDA:8,System.Int32 Ucu.Poo.Defense.PublicationItem::get_Price()
+DA:9,8
+FN:10,System.Void Ucu.Poo.Defense.PublicationItem::.ctor(Ucu.Poo.Defense.Material,System.Int32,System.Int32)
+FNDA:4,System.Void Ucu.Poo.Defense.PublicationItem::.ctor(Ucu.Poo.Defense.Material,System.Int32,System.Int32)
+DA:11,4
+DA:12,4
+DA:13,4
+DA:14,4
+DA:15,4
+DA:16,4
+LF:9
+LH:9
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
