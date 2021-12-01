@@ -26,7 +26,7 @@ namespace Ucu.Poo.Defense
                 return false;
             }
             // Si el otro objeto no es del mismo tipo que este objeto no pueden ser iguales; retornar False
-            else if  (!this.GetType().Equals(obj.GetType()))
+            else if (!this.GetType().Equals(obj.GetType()))
             {
                 return false;
             }

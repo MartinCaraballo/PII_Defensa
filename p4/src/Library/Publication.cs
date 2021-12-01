@@ -5,15 +5,15 @@ using System.Collections.ObjectModel;
 
 namespace Ucu.Poo.Defense
 {
-    public class Publication
+    public class Publication : IPublicationItem
     {
         public DateTime EndDate { get; set; }
 
-        public IReadOnlyCollection<PublicationItem> Items
+        public IReadOnlyCollection<IPublicationItem> Items
         {
             get
             {
-                return new ReadOnlyCollection<PublicationItem>(this.items);
+                return new ReadOnlyCollection<IPublicationItem>(this.items);
             }
         }
 
@@ -31,7 +31,7 @@ namespace Ucu.Poo.Defense
             }
         }
 
-        private IList<PublicationItem> items = new List<PublicationItem>();
+        private IList<IPublicationItem> items = new List<IPublicationItem>();
 
         public Publication(DateTime endDate)
         {
@@ -45,9 +45,18 @@ namespace Ucu.Poo.Defense
             return item;
         }
 
-        public void RemoveItem(PublicationItem item)
+        public void RemoveItem(IPublicationItem item)
         {
             this.items.Remove(item);
+        }
+
+        public PublicationDiscount AddDiscount(int value)
+        {
+            if (value > 0)
+            {
+                throw new ArgumentException();
+            }
+            return new PublicationDiscount(value);
         }
     }
 }
